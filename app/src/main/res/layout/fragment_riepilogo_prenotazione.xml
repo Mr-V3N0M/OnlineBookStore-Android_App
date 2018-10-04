@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tv_prenotazione_effettuata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/prenotazione_effettuata"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/tv_info_prestito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/le_tue_info_sul_prestito"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_prenotazione_effettuata"
+            app:layout_constraintTop_toBottomOf="@+id/tv_prenotazione_effettuata"/>
+
+    <TextView
+            android:id="@+id/tv_ID_prestito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@mipmap/ic_format_list_numbered_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/id_del_prestito"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:typeface="monospace"
+            app:layout_constraintStart_toStartOf="@+id/tv_info_prestito"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info_prestito"/>
+
+    <TextView
+            android:id="@+id/tv_inizio_prestito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@mipmap/ic_event_available_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/inizio_prestito"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_ID_prestito"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ID_prestito"/>
+
+    <TextView
+            android:id="@+id/tv_ID_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@mipmap/ic_line_weight_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/id_del_libro"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_inizio_prestito"
+            app:layout_constraintTop_toBottomOf="@+id/tv_inizio_prestito"/>
+
+    <TextView
+            android:id="@+id/tv_titolo_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@mipmap/ic_library_books_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/titolo_del_libro"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_ID_libro"
+            app:layout_constraintTop_toBottomOf="@+id/tv_ID_libro"/>
+
+    <TextView
+            android:id="@+id/tv_autore_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@mipmap/ic_mode_edit_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/autore_i_del_libro"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_titolo_libro"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titolo_libro"/>
+
+    <TextView
+            android:id="@+id/tv_editore_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@mipmap/ic_location_city_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/editore_del_libro"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="@+id/tv_autore_libro"
+            app:layout_constraintTop_toBottomOf="@+id/tv_autore_libro"/>
+
+    <TextView
+            android:id="@+id/txt_inizio_prestito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_inizio_prestito"
+            app:layout_constraintStart_toEndOf="@+id/tv_inizio_prestito"/>
+
+    <TextView
+            android:id="@+id/txt_id_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_ID_libro"
+            app:layout_constraintStart_toEndOf="@+id/tv_ID_libro"/>
+
+    <TextView
+            android:id="@+id/txt_titolo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_titolo_libro"
+            app:layout_constraintStart_toEndOf="@+id/tv_titolo_libro"/>
+
+    <TextView
+            android:id="@+id/txt_autore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_autore_libro"
+            app:layout_constraintStart_toEndOf="@+id/tv_autore_libro"/>
+
+    <TextView
+            android:id="@+id/txt_editore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_editore_libro"
+            app:layout_constraintStart_toEndOf="@+id/tv_editore_libro"/>
+
+    <TextView
+            android:id="@+id/txt_id_prestito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_ID_prestito"
+            app:layout_constraintStart_toEndOf="@+id/tv_ID_prestito"/>
+
+</android.support.constraint.ConstraintLayout>

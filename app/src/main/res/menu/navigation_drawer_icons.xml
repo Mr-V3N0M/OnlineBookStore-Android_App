@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group
+            android:id="@+id/menu_top"
+            android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_dashboard"
+              android:icon="@mipmap/ic_dashboard_black_24dp"
+              android:title="@string/dashboard"/>
+
+        <item android:id="@+id/nav_prenotaLibro"
+              android:icon="@mipmap/ic_arrow_downward_black_24dp"
+              android:title="@string/prenota_un_libro"/>
+
+        <item android:id="@+id/nav_restituisciLibro"
+              android:icon="@mipmap/ic_arrow_upward_black_24dp"
+              android:title="@string/restituisci_un_libro"/>
+
+        <item android:id="@+id/nav_cronologiaPrestiti"
+              android:icon="@mipmap/ic_library_books_black_24dp"
+              android:title="@string/cronologia_dei_prestiti"/>
+
+    </group>
+
+    <group
+            android:id="@+id/menu_bottom"
+            android:checkableBehavior="none">
+
+        <item android:id="@+id/nav_logout"
+              android:icon="@mipmap/ic_exit_to_app_black_24dp"
+              android:title="@string/logout"/>
+
+    </group>
+
+</menu>

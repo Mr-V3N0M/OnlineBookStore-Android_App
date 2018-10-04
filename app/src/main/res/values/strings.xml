@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Online BookStore</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="empty_restituzione">Non sono presenti libri da restituire</string>
+    <string name="empty_prenota">Non sono presenti libri da prenotare</string>
+    <string name="empty_dashboard">Attualmente non sono presenti libri a catalogo</string>
+    <string name="empty_prestiti_passati">Non hai ancora restituito nessun libro</string>
+    <string name="empty_prestiti_attivi">Non hai nessun libro prenotato</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="inserisci_il_nome_utente">Inserisci il nome utente</string>
+    <string name="password">Password</string>
+    <string name="inserisci_la_password">Inserisci la password</string>
+    <string name="benvenuti">Benvenuti!</string>
+    <string name="qui_di_seguito_potete_trovare_l_elenco_dei_libri_che_sono_disponibili_nel_nostro_catalogo_per_usufruire_dei_nostri_servizi_richiesto_il_login">
+        Qui di seguito potete trovare l\'elenco dei libri che sono disponibili nel nostro catalogo. Per usufruire dei
+        nostri servizi è richiesto il login.
+    </string>
+    <string name="prestiti_attivi">Prestiti Attivi</string>
+    <string name="prestiti_passati">Prestiti Passati</string>
+    <string name="ecco_l_elenco_completo_dei_libri_a_catalogo">Ecco l\'elenco completo dei libri a catalogo.</string>
+    <string name="benvenuto">Benvenuto</string>
+    <string name="prenota_un_libro">Prenota un libro</string>
+    <string name="libri_in_tuo_possesso">Libri in tuo possesso</string>
+    <string name="libri_restituiti">Libri restituiti</string>
+    <string name="restituisci_un_libro">Restituisci un libro</string>
+    <string name="prenotazione_effettuata">Prenotazione effettuata</string>
+    <string name="le_tue_info_sul_prestito">Le tue info sul prestito:</string>
+    <string name="id_del_prestito">ID del prestito:\u0020</string>
+    <string name="inizio_prestito">Inizio prestito:\u0020</string>
+    <string name="id_del_libro">ID del libro:\u0020</string>
+    <string name="titolo_del_libro">Titolo del libro:\u0020</string>
+    <string name="autore_i_del_libro">Autore/i del libro:\u0020</string>
+    <string name="editore_del_libro">Editore del libro:\u0020</string>
+    <string name="titolo">Titolo</string>
+    <string name="autore">Autore</string>
+    <string name="editore">Editore</string>
+    <string name="id_libro">id_libro</string>
+    <string name="id">ID:\u0020</string>
+    <string name="id_prestito">ID prestito:\u0020</string>
+    <string name="inizio">-\u0020\u0020Inizio:\u0020</string>
+    <string name="fine">-\u0020\u0020Fine:\u0020</string>
+    <string name="ciao">Ciao,</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="cronologia_dei_prestiti">Cronologia dei prestiti</string>
+    <string name="logout">Logout</string>
+    <string name="tocca_un_libro_per_prenotarlo">Tocca un libro per prenotarlo.</string>
+    <string name="tocca_un_libro_per_restituirlo">Tocca un libro per restituirlo.</string>
+</resources>
